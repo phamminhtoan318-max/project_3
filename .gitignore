@@ -3,3 +3,5 @@ Dockerfile
 data/
 .venv/
 .env
+logs/
+__pycache__
