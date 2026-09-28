@@ -4,8 +4,4 @@ data/
 .venv/
 .env
 logs/
-<<<<<<< HEAD
-src/__pycache__/
-=======
-__pycache__
->>>>>>> feature/logging_config
+__pycache__/
