@@ -9,11 +9,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DATA_DIR = BASE_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"
+STAGING_DIR = DATA_DIR / "staging"
 PROCESSED_DIR = DATA_DIR / "processed"
 LOG_DIR = BASE_DIR / "logs"
 
 # Tự động tạo các thư mục cần thiết nếu chưa có
-for directory in [RAW_DIR, PROCESSED_DIR, LOG_DIR]:
+for directory in [RAW_DIR, STAGING_DIR, PROCESSED_DIR, LOG_DIR]:
     directory.mkdir(parents=True, exist_ok=True)
 
 # =========================
