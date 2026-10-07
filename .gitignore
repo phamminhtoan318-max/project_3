@@ -4,4 +4,4 @@ data/
 .venv/
 .env
 logs/
-__pycache__/
+src/__pycache__/
